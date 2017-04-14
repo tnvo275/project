@@ -1,0 +1,48 @@
+body {
+  background-image: url("http://garrarufa-world.com/images/bg.jpg");
+}
+
+#title {
+  font-family: Cursive;
+  font-size: 40px;
+  color: #36648b;
+  text-align: center;
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+@keyframes changeColor {
+    from {color: #36648b;}
+    to {color: yellow;}
+}
+
+a {
+    text-decoration: none;
+    color: #36648b;
+}
+
+h2 {
+    color: #F08080;
+    font-family: Arial Narrow;
+    text-align: center;
+}
+
+
+img {
+    width:300px;    
+}
+
+span {
+    font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#bottom div {
+  border-radius:5px; 
+  border: 2px solid #6495ED; 
+  background-color: #BCD2EE;	
+  height: 40px; width: 110px; 
+  margin: auto; 
+  text-align: center
+}
